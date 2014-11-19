@@ -257,7 +257,13 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	
+	Animate AmmoInClip						fgcolor		"MHUD_Red"	Linear 0.0 0.075
+	Animate AmmoInClip						fgcolor		"MHUD_Mint"	Linear 0.125 0.075	
+	Animate AmmoInReserve					fgcolor		"MHUD_Red"	Linear 0.0 0.075
+	Animate AmmoInReserve					fgcolor		"MHUD_White"	Linear 0.125 0.075	
+	Animate AmmoNoClip						fgcolor		"MHUD_Red"	Linear 0.0 0.075
+	Animate AmmoNoClip						fgcolor		"MHUD_Mint"	Linear 0.125 0.075	
+				
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
@@ -271,6 +277,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
+	Animate AmmoInClip		fgcolor		"MHUD_White"	Linear 0.0 0.0
+	Animate AmmoNoClip		fgcolor		"MHUD_White"	Linear 0.0 0.0
+	Animate AmmoInReserve	fgcolor		"MHUD_White"	Linear 0.0 0.0
 }
 
 //===========================================

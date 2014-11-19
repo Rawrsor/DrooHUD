@@ -21,6 +21,7 @@ Scheme
 		
 		//MintHUD Colors
 		"MHUD_White"		"222 255 232 255"
+		"MHUD_White_T"		"222 255 232 150"
 		"MHUD_Black"		"13 13 13 255"
 		"MHUD_Mint"			"54 255 124 255"
 		"MHUD_Red"			"232 79 79 255"
