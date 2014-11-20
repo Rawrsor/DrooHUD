@@ -30,6 +30,7 @@ Scheme
 		"MHUD_Mint"			"54 255 124 255"
 		"MHUD_Red"			"232 79 79 255"
 		"MHUD_LightRed"		"245 30 30 255"
+		"MHUD_Mango"		"250 191 90 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

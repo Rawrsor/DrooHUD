@@ -5,12 +5,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-100"	
+		"xpos"			"c-105"	
 		"ypos"			"c55"	
 		"wide"			"220"
 		"tall"			"100"
 		"MeterFG"		"MHUD_White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"MHUD_Mint"
 	}
 	
 	"ItemEffectMeterBG"
@@ -53,9 +53,8 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"fgcoloroveride"		"MHUD_Mint"
 	}
 
 	"ItemEffectMeter"
