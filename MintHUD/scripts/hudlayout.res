@@ -1,5 +1,26 @@
 "Resource/HudLayout.res"
 {
+	//Crosshair
+	Crosshair
+	{
+	"controlName"		"CExLabel"
+	"fieldName"			"Crosshair"
+	"visible"			"1"
+	"enabled"			"1"
+	"visible_minmode"	"1"
+	"enabled_minmode"	"1"
+	"xpos"				"0"			//Play around with x and y until it's centered
+	"ypos"				"3"			//Not all crosshairs/resolutions have the same placement
+	"zpos"				"0"
+	"wide"				"f0"
+	"tall"				"f0"
+	"font"				"Crosshair"
+	"labelText"			"9"			//Refer to resource/fonts/crosshairs.png for crosshairs
+	"fgcolor"			"CrosshairColor"
+	"textAlignment"		"center"
+	}
+	
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

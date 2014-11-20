@@ -740,7 +740,15 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate Crosshair		fgcolor		"CrosshairHitColor"	Linear 0.0 0.0
+	
+	RunEvent DamagedPlayerStop	0.1
+}
+
+event DamagedPlayerStop
+{
+	StopEvent DamagedPlayer 0.0
+	Animate Crosshair		fgcolor		"CrosshairColor"	Linear 0.0 0.0
 }
 
 //===========================================

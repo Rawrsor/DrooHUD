@@ -20,6 +20,10 @@ Scheme
 	{
 		
 		//MintHUD Colors
+		"CrosshairColor"	"222 255 232 255"	//Color of HUD Crosshair
+		
+		"CrosshairHitColor"	"252 3 136 255"		//Customize the color the HUD crosshair makes
+												//when you hit someone
 		"MHUD_White"		"222 255 232 255"
 		"MHUD_White_T"		"222 255 232 150"
 		"MHUD_Black"		"13 13 13 255"
@@ -2368,7 +2372,7 @@ Scheme
 
 		///////////////////// MintHUD Fonts //////////////////////////
 		
-//Berlin Email
+		//Berlin Email
 		"BerlinEmail12"
 		{
 			"1"
@@ -2457,7 +2461,7 @@ Scheme
 			}
 		}
 
-//Berlin Email Bold		
+		//Berlin Email Bold		
 
 		"BerlinEmailBold12"
 		{
@@ -2547,7 +2551,7 @@ Scheme
 			}
 		}
 		
-//Berlin Email Heavy
+		//Berlin Email Heavy
 
 		"BerlinEmailHeavy12"
 		{
@@ -2637,8 +2641,29 @@ Scheme
 			}
 		}
 		
-
+		//Crosshairs Font
 		
+		"Crosshair"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"CrosshairSmall"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -4614,5 +4639,9 @@ Scheme
 			"font" "resource/fonts/Berlin_Email_Wide_Semibold.ttf"
 			"name" "Berlin Email Wide Semibold"
 		}
+		"13"
+		{
+			"font" "resource/fonts/Crosshairs.ttf"
+			"name" "Crosshairs Regular"
 	}
 }
