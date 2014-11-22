@@ -437,13 +437,13 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"MHUD_White"	Linear 0.0 0.075
+	Animate	ChargeLabel 	FgColor		"MHUD_Mint"		Linear 0.125 0.075
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"MHUD_White"	Linear 0.0 0.075
+	Animate	ChargeMeter 	FgColor		"MHUD_Mint"		Linear 0.125 0.075
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedLoop	0.25
 }
 
 // call to loop HudHealthBonusPulse
@@ -457,8 +457,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"MHUD_White"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"MHUD_White"		Linear 0.0 0.0001
 }
 
 //====================================

@@ -1,16 +1,17 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-105"
-		"ypos"			"c60"
+//		"x_offset"		"40"
+		"xpos"			"c-105"	
+		"ypos"			"c60"	
 		"wide"			"250"
-		"tall"			"100"
-		"MeterFG"		"222 255 232 90"
-		"MeterBG"		"150 150 150 90"
+		"tall"			"150"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -25,11 +26,11 @@
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
+		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -38,7 +39,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"85"
-		"ypos"					"30"
+		"ypos"					"68"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,9 +52,9 @@
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Cleaver"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"fgcolor_override"		"MHUD_Mint"
+		"fgcolor_override"		"MHUD_Red"
 		"font"					"TFFontSmall"
 	}
 
@@ -63,7 +64,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"10"
-		"ypos"					"30"
+		"ypos"					"68"
 		"zpos"					"2"
 		"wide"					"200"
 		"tall"					"2"				

@@ -54,7 +54,7 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"font"					"TFFontSmall"
-		"fgcoloroveride"		"MHUD_Mint"
+		"fgcolor_override"		"MHUD_Mint"
 	}
 
 	"ItemEffectMeter"

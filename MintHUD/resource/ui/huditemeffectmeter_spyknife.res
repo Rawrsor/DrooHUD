@@ -1,16 +1,16 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-105"
-		"ypos"			"c60"
+		"xpos"			"c-105"	
+		"ypos"			"c60"	
 		"wide"			"250"
 		"tall"			"100"
-		"MeterFG"		"222 255 232 90"
-		"MeterBG"		"150 150 150 90"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -37,8 +37,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"85"
-		"ypos"					"30"
+		"xpos"					"84"
+		"ypos"					"34"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,9 +51,10 @@
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Cleaver"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"fgcolor_override"		"MHUD_Mint"
+		"dulltext"				"0"
+		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
 
@@ -63,7 +64,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"10"
-		"ypos"					"30"
+		"ypos"					"35"
 		"zpos"					"2"
 		"wide"					"200"
 		"tall"					"2"				
