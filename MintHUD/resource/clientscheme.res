@@ -2642,6 +2642,96 @@ Scheme
 			}
 		}
 		
+		
+		//Berlin Email 2
+		"BerlinEmailAlt12"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt18"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt24"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt30"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt36"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt42"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt48"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt54"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		//Crosshairs Font
 		
 		"Crosshair"
