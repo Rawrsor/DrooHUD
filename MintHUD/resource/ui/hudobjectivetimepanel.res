@@ -2,7 +2,7 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"16"
 		"ypos"			"12"
@@ -11,11 +11,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"	
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
+		"image"			"../hud/objectives_timepanel_blue_bg"
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

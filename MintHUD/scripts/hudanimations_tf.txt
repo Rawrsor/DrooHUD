@@ -299,26 +299,26 @@ event ControlPointIconGrow
 //activecolor - instantly turn red, fade back to yellow
 event AccountMoneyRemoved
 {
-	Animate HudAccount		FgColor	"HudIcon_Red" Linear 0.0 0.0001
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
+	Animate HudAccount		FgColor	"MHUD_Red" Linear 0.0 0.0001
+	Animate HudAccount		FgColor	"MHUD_Mango" Accel 0.0 3.0
 
-	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
+	Animate	HudAccount		Ammo2Color "MHUD_Red" Linear 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
 //activecolor - instantly turn green, fade back to yellow
 event AccountMoneyAdded
 {
-	Animate HudAccount		FgColor	"HudIcon_Green" Linear 0.0 0.0001
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
+	Animate HudAccount		FgColor	"MHUD_Mint" Linear 0.0 0.0001
+	Animate HudAccount		FgColor	"MHUD_Mango" Accel 0.0 3.0
 
-	Animate HudAccount		Ammo2Color "HudIcon_Green" Accel 0.0 0.0001
+	Animate HudAccount		Ammo2Color "MHUD_Mint" Accel 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
 event AccountMoneyInvisible
 {
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 0.0001
+	Animate HudAccount		FgColor	"MHUD_Mango" Accel 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 0.0001
 }
 
