@@ -33,6 +33,7 @@ Scheme
 		"MHUD_Mango"		"250 191 90 255"
 		"MHUD_TeamRed"		"212 85 68 255"
 		"MHUD_TeamBlu"		"68 176 212 255"
+		"MHUD_Melon"		"222 82 180 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
