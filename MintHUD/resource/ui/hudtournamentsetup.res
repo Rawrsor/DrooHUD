@@ -2,7 +2,7 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -13,21 +13,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"fillcolor"		"14 14 14 140"
 	}
 
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"BerlinEmailAlt12"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -46,7 +39,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HudFontSmallest"
+		"font"			"BerlinEmailAlt12"
 		"xpos"			"67"
 		"ypos"			"28"
 		"zpos"			"1"
@@ -84,6 +77,7 @@
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
+		"font"			"BerlinEmailAlt12"
 	}
 
 	"HudTournamentNameBG"
@@ -122,8 +116,8 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"Red"
+		"font"			"BerlinEmailAlt12"
+		"fgcolor"		"MHUD_Mint"
 	}
 
 	"TournamentReadyButton"
@@ -145,7 +139,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"FooterBGBlack"
+		"font"			"BerlinEmailAlt12"
+		"fgcolor"		"MHUD_Black"
 	}
 }

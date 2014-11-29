@@ -366,6 +366,7 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"red"
+		"font"			"BerlinEmailAlt12"
 		
  		if_mvm
  		{
@@ -699,7 +700,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
+				"font"			"BerlinEmailAlt12"
 			}
 			"Score"
 			{
@@ -778,7 +779,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"BerlinEmailAlt12"
 			}
 			"Score"
 			{
@@ -795,7 +796,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"BerlinEmailAlt12"
 			}
 		}
 	}

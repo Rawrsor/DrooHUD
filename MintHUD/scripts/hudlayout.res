@@ -496,20 +496,18 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"			"MHUD_TeamBlu"
+		"TeamRed"			"MHUD_TeamRed"
+		"IconColor"			"MHUD_White"
+		"LocalPlayerColor"	"MHUD_Black"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"MHUD_Black"		[$WIN32]
+		"LocalBackgroundColor"	"234 234 234 255"	[$WIN32]
 	}
 
 	HudVehicle

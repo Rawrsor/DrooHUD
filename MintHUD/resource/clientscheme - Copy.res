@@ -451,9 +451,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Opificio"
+				"name"		"Verdana"
 				"tall"		"12"
-				"antialias"	"1"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
 			"2"
 			{
@@ -2756,17 +2758,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
-		"Opificio12"
-		{
-			"1"
-			{
-				"name"		"Opificio"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -4746,11 +4737,5 @@ Scheme
 		{
 			"font" "resource/fonts/Crosshairs.ttf"
 			"name" "Crosshairs Regular"
-		}
-		"14"
-		{	
-			"font" "resource/fonts/Opificio.ttf"
-			"name" "Opificio"
-		}
 	}
 }

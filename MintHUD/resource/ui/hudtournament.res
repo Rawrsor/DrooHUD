@@ -4,7 +4,6 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"				"HudTournament"
-				
 		"xpos"					"c-125"
 		"ypos"					"0"
 		"wide"					"250"
@@ -248,7 +247,7 @@
 
 	"HudTournamentBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -259,13 +258,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"fillcolor"		"14 14 14 140"
 		
 		if_mvm
 		{
@@ -276,19 +269,19 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmall"
+		"font"			"BerlinEmailAlt12"
 		"xpos"			"5"
 		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"19"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		
 		if_mvm
 		{
@@ -298,7 +291,7 @@
 
 	"HudTournamentBLUEBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"5"
 		"ypos"			"23"
@@ -309,13 +302,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
-
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
-		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"fillcolor"		"MHUD_TeamBlu"
 		
 		if_mvm
 		{
@@ -326,7 +313,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"HudFontSmallest"
+		"font"			"BerlinEmailAlt12"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -349,7 +336,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"BerlinEmailBold12"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -371,7 +358,7 @@
 
 	"HudTournamentREDBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"125"
 		"ypos"			"23"
@@ -382,13 +369,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_red"
-
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
-		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"fillcolor"		"MHUD_TeamRed"
 		
 		if_mvm
 		{
@@ -399,7 +380,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"HudFontSmallest"
+		"font"			"BerlinEmailAlt12"
 		"xpos"			"175"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -422,7 +403,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"BerlinEmailBold12"
 		"xpos"			"130"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -445,7 +426,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"TFFontSmall"
+		"font"			"BerlinEmailAlt12"
 		"fgcolor"		"TanLight"
 		"xpos"			"8"
 		"ypos"			"42"
@@ -468,10 +449,10 @@
 
 	"HudTournamentBGHelp"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"0"
-		"ypos"			"51"
+		"ypos"			"55"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"17"
@@ -479,14 +460,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"fillcolor"		"14 14 14 140"
 		
 		if_mvm
 		{
@@ -497,9 +471,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"TFFontSmall"
+		"font"			"BerlinEmailAlt12"
 		"xpos"			"0"
-		"ypos"			"54"
+		"ypos"			"58"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"1"
@@ -524,11 +498,11 @@
 	
 	"TournamentInstructionsLabelShadow"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"TFFontSmall"
-		"xpos"			"0"
-		"ypos"			"54"
+		"font"			"BerlinEmailAlt12"
+		"xpos"			"1"
+		"ypos"			"59"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"2"
