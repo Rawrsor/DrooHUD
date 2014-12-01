@@ -339,7 +339,7 @@
 		"wide"		"640"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudMannVsMachineStatus
@@ -1008,7 +1008,7 @@
 		"xpos"			"c-125"
 		"ypos"			"c-55"
 		"wide"			"250"
-		"tall"			"195"
+		"tall"			"220"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1018,10 +1018,11 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"ypos"			"c-60"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
-		"wide"			"470"
+		"zpos"			"5"
+		"wide"			"550"
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"

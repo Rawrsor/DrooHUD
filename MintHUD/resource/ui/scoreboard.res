@@ -931,7 +931,7 @@
 			"font"			"BerlinEmail48"
 			"labelText"		":"
 			"textAlignment"	"west"
-			"xpos"			"59"
+			"xpos"			"65"
 			"ypos"			"-35"
 			"zpos"			"3"
 			"wide"			"35"
