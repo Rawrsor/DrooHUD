@@ -41,7 +41,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"BerlinEmail12"
 		"xpos"			"45"
-		"ypos"			"-50"	
+		"ypos"			"15"	
 		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"15"
@@ -89,32 +89,31 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
+		"ypos"			"43"
+		"zpos"			"6"
 		"wide"			"252"
-		"tall"	 		"30"
-		"autoResize"		"0"
+		"tall"	 		"10"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"43"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"4"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -122,11 +121,11 @@
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"44"				// pixels inside the image
+		"src_corner_width"		"44"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	
 

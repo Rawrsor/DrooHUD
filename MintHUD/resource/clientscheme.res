@@ -19,17 +19,29 @@ Scheme
 	Colors
 	{
 		
-		//MintHUD Colors
-		"CrosshairColor"	"222 255 232 255"	//Color of HUD Crosshair
+//////////MintHUD Colors//////////////////////////////////////////////////////////////////////
 		
+		//Customizable Colors
+		"CrosshairColor"	"222 255 232 255"	//Color of HUD Crosshair
 		"CrosshairHitColor"	"252 3 136 255"		//Customize the color the HUD crosshair makes
 												//when you hit someone
+		
+		"MHUD_Health"		"222 255 232 255"	//Color of health numbers
+		"MHUD_HealthBuffed"	"54 255 124 255"	//Color of overheal health numbers
+		"MHUD_HealthLow1"	"232 79 79 255"		//1st color of the low health animation
+		"MHUD_HealthLow2"	"245 30 30 255"		//2nd color of the low health animation
+		"MHUD_Ammo"			"222 255 232 255"	//Color of ammo numbers
+		"MHUD_AmmoReserve"	"250 191 90 255"	//Color of ammo in reserve numbers
+		"MHUD_AmmoLow"		"245 30 30 255"		//Color that flashes during the low ammo animation
+		
+		//MintHUD Base Colors
 		"MHUD_White"		"222 255 232 255"
 		"MHUD_White_T"		"222 255 232 150"
 		"MHUD_Black"		"13 13 13 255"
 		"MHUD_Mint"			"54 255 124 255"
 		"MHUD_Red"			"232 79 79 255"
 		"MHUD_LightRed"		"245 30 30 255"
+		"MHUD_DarkBlu"		"54 120 186 255"
 		"MHUD_Mango"		"250 191 90 255"
 		"MHUD_TeamRed"		"212 85 68 255"
 		"MHUD_TeamBlu"		"68 176 212 255"
@@ -451,13 +463,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Opificio"
+				"name"		"Homizio Nova"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Homizio Nova"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -466,7 +478,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Homizio Nova"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2767,6 +2779,110 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"Facile12"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		"Facile24"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		"Facile36"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		"Facile54"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Baron54"
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Baron36"
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt36"
+		{
+			"1"
+			{
+				"name"		"Thohir Ke Badreah"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt30"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt54"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -4751,6 +4867,16 @@ Scheme
 		{	
 			"font" "resource/fonts/Opificio.ttf"
 			"name" "Opificio"
+		}
+		"15"
+		{
+			"font" "resource/fonts/regular.ttf"
+			"name" "Homizio Nova"
+		}
+		"16"
+		{
+			"font" "resource/fonts/Brixton Bold.ttf"
+			"name" "Brixton Bold"
 		}
 	}
 }

@@ -225,20 +225,17 @@
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"fillcolor"		"14 14 14 140"
 		"scaleImage"		"1"	
 	}
 	"ServerTimeLimitLabel"

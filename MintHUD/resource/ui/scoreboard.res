@@ -315,7 +315,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"375"
 		}
 	}							
 	"BluePlayerList"

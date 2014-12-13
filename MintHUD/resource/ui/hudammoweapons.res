@@ -24,8 +24,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"4"
-		"xpos_minmode"	"28"
+		"xpos"			"99999"
+		"xpos_minmode"	"99999"
 		"ypos"			"0"
 		"ypos_minmode"	"7"
 		"zpos"			"0"
@@ -44,8 +44,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"BerlinEmail54"
-		"fgcolor"		"MHUD_White"
+		"font"			"BerlinEmail54"		//Remove the // to choose what font you want
+		//"font"		"Alt54"
+		"fgcolor"		"MHUD_Ammo"
 		"xpos"			"50"
 		"ypos"			"-23"
 		"zpos"			"5"
@@ -61,7 +62,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"BerlinEmail54"
+		"font"			"BerlinEmail54"		//Remove the // to choose what font you want
+		//"font"			"Alt54"
 		"fgcolor"		"MHUD_Black"
 		"xpos"			"51"
 		"ypos"			"-22"
@@ -78,8 +80,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"BerlinEmail30"
-		"fgcolor"		"MHUD_White"
+		"font"			"BerlinEmail30"		//Remove the // to choose what font you want
+		//"font"			"Alt30"
+		"fgcolor"		"MHUD_AmmoReserve"
 		"xpos"			"110"
 		"ypos"			"34"
 		"zpos"			"7"
@@ -94,7 +97,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"BerlinEmail30"
+		"font"			"BerlinEmail30"		//Remove the // to choose what font you want
+		//"font"			"Alt30"
 		"fgcolor"		"MHUD_Black"
 		"xpos"			"111"
 		"ypos"			"35"
@@ -110,8 +114,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"BerlinEmail54"
-		"fgcolor"		"MHUD_White"
+		"font"			"BerlinEmail54"		//Remove the // to choose what font you want
+		//"font"			"Alt54"
+		"fgcolor"		"MHUD_Ammo"
 		"xpos"			"30"
 		"ypos"			"17"
 		"zpos"			"5"
@@ -127,7 +132,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"BerlinEmail54"
+		"font"			"BerlinEmail54"		//Remove the // to choose what font you want
+		//"font"			"Alt54"
 		"fgcolor"		"MHUD_Black"
 		"xpos"			"31"
 		"ypos"			"18"

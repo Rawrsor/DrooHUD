@@ -71,8 +71,9 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BerlinEmail54"
-		"fgcolor"		"MHUD_White"
+		"font"			"BerlinEmail54"		//Remove the // to choose what font you want
+		//"font"		"Alt54"
+		"fgcolor"		"MHUD_Health"
 	}
 	"PlayerStatusHealthValueBG"
 	{
@@ -87,7 +88,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BerlinEmail54"
+		"font"			"BerlinEmail54"		//Remove the // to choose what font you want
+		//"font"		"Alt54"
 		"fgcolor"		"MHUD_Black"
 	}									
 	"PlayerStatusBleedImage"
