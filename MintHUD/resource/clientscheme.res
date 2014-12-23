@@ -463,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Homizio Nova"
+				"name"		"Santiago Sans St"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -4349,10 +4349,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"alert_rect"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"src_corner_height"		"44"				// pixels inside the image
+			"src_corner_width"		"44"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonDefault
 		{
@@ -4360,10 +4360,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_central"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"src_corner_height"		"44"				// pixels inside the image
+			"src_corner_width"		"44"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonArmed
 		{
@@ -4371,10 +4371,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_central_hover"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"src_corner_height"		"44"				// pixels inside the image
+			"src_corner_width"		"44"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonDisabled
 		{
@@ -4382,10 +4382,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_central_disabled"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"src_corner_height"		"44"				// pixels inside the image
+			"src_corner_width"		"44"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonDefault
 		{
@@ -4393,10 +4393,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_central_adv"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"src_corner_height"		"44"				// pixels inside the image
+			"src_corner_width"		"44"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonArmed
 		{
@@ -4404,10 +4404,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_central_adv_hover"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"src_corner_height"		"44"				// pixels inside the image
+			"src_corner_width"		"44"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorder
 		{
@@ -4415,10 +4415,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"src_corner_height"		"44"				// pixels inside the image
+			"src_corner_width"		"44"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorderAlpha
 		{
@@ -4865,8 +4865,8 @@ Scheme
 		}
 		"14"
 		{	
-			"font" "resource/fonts/Opificio.ttf"
-			"name" "Opificio"
+			"font" "resource/fonts/Santiago Sans St.ttf"
+			"name" "Santiago Sans St"
 		}
 		"15"
 		{

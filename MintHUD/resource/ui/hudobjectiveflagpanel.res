@@ -29,7 +29,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"MHUD_Black"
+		"fillcolor"		"14 14 14 140"
 		
 		"if_hybrid"
 		{
@@ -58,7 +58,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"MHUD_Black"
+		"fillcolor"		"14 14 14 140"
 		
 		"if_hybrid"
 		{
