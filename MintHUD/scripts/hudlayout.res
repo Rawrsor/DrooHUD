@@ -5,8 +5,8 @@
 	{
 	"controlName"		"CExLabel"
 	"fieldName"			"Crosshair"
-	"visible"			"1"
-	"enabled"			"1"
+	"visible"			"0"
+	"enabled"			"0"
 	"visible_minmode"	"1"
 	"enabled_minmode"	"1"
 	"xpos"				"0"			//Play around with x and y until it's centered

@@ -20,7 +20,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"BerlinEmailAlt12"
+		"font"			"Default"
 		"xpos"			"10"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -39,7 +39,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"BerlinEmail12"
+		"font"			"Default"
 		"xpos"			"45"
 		"ypos"			"15"	
 		"zpos"			"6"
@@ -143,7 +143,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"BerlinEmail12"
+		"TFFont"		"Default"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
@@ -241,7 +241,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"MoveableKeyText"
-			"font_minmode"	"BerlinEmail12"
+			"font_minmode"	"Default"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"6"

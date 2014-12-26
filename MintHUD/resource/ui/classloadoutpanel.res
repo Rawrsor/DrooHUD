@@ -14,12 +14,12 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 0"
-		"outoffocus_bgcolor_override" "46 43 42 0"
+		"bgcolor_override"	"40 40 40 255"
+		"infocus_bgcolor_override" "46 43 42 255"
+		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"70"
-		"item_xpos_offcenter_b"	"230"
+		"item_xpos_offcenter_a"	"-310"
+		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -38,8 +38,7 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"zpos"			"11"
-			"wide"			"150"
+			"wide"			"140"
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
@@ -62,15 +61,16 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
-				"allow_manip"				"0"
+				"allow_rot"				"0"
 			}
 		}
+
 		"itemoptionpanels_kv"
 		{
 			"ControlName"	"CExButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"12"
+			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
 			"autoResize"	"0"
@@ -92,17 +92,17 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c145"
-		"ypos"			"9"
+		"xpos"			"c-300"
+		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"20"
+		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -110,17 +110,53 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontBiggerBold"
+		"font"			"HudFontMediumBold"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c172"
-		"ypos"			"10"
+		"xpos"			"c-280"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"TauntCaratLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"TauntCaratLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		">>"
+		"textAlignment"	"west"
+		"xpos"			"c-150"
+		"ypos"			"20"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"15"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "200 80 60 255"
+	}
+	"TauntLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TauntLabel"
+		"font"			"HudFontMediumBold"
+		"labelText"		"#TF_Taunt"
+		"textAlignment"	"west"
+		"xpos"			"c-130"
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -128,12 +164,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"c-400"
-		"ypos"			"20"
-		"zpos"			"-5"
-		"wide"			"800"
+		"xpos"			"c-305"
+		"ypos"			"40"
+		"zpos"			"2"
+		"wide"			"610"
 		"tall"			"10"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
@@ -144,19 +180,21 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"zpos"			"10"		
-		"wide"			"f0"
-		"tall"			"f0"
+		
+		"xpos"			"c-135"
+		"ypos"			"20"
+		"zpos"			"-1"		
+		"wide"			"270"
+		"tall"			"340"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-				
-		"render_texture"	"0"
-		"fov"			"55"
-		"allow_manip"		"1"
 		
-						
+		"render_texture"	"0"
+		"fov"			"30"
+		"allow_rot"		"1"
+				
 		"model"
 		{
 			"force_pos"	"1"
@@ -164,16 +202,13 @@
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
-			"origin_x" "180"    //closer-farther
-			"origin_y" "40"		//right-left
-			"origin_z" "-36"
-			"frame_origin_x"	"260"
+			"origin_x" "190"
+			"origin_y" "0"
+			"origin_z" "-48"
+			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
-			"frame_origin_z"	"-42"
+			"frame_origin_z"	"0"
 			"spotlight" "1"
-			"model_wide"	"300"
-			"frame_wide"	"400"
-			
 		
 			"modelname"		""
 			
@@ -258,14 +293,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c105"
-		"ypos"			"170"
+		"xpos"			"c-135"
+		"ypos"			"120"
 		"zpos"			"0"	
 		"wide"			"270"
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south"
@@ -287,7 +322,7 @@
 		"tabPosition"	"0"
 		"paintbackground"	"0"
 	}
-
+	
 	"PresetsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -397,6 +432,7 @@
 			}				
 		}		
 	}
+
 	"ItemOptionsPanel"
 	{
 		"ControlName"	"CLoadoutParticleSlider"
@@ -411,114 +447,7 @@
 		"bgcolor_override"		"69 64 63 255"
 		"PaintBackgroundType"	"2"
 	}
-	"RedButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
-		"xpos"				"c-55"
-		"ypos"				"90"
-		"zpos"				"12"	
-		"wide"				"52"
-		"tall"				"34"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"scaleImage"		"1"
-		"command"	"sv_cheats 1; r_skin 0"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
-		"paintbackgroundtype"	"0"
-		"defaultBgColor_Override"	"0 0 0 255"
-		
-		"paintborder"		"0"
-		
-		"image_drawcolor"		"255 255 255 77"
-		"image_armedcolor"		"255 255 255 128"
-		"image_selectedcolor"	"255 255 255 255"
-	
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"			"52"
-			"tall"			"52"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"/store/store_redteam"
-			"scaleImage"	"1"
-		}				
-	}
-	"BlueButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"BlueButton"
-		"xpos"				"c1"
-		"ypos"				"90"
-		"zpos"				"12"	
-		"wide"				"52"
-		"tall"				"34"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"scaleImage"		"1"
-		"command"	"sv_cheats 1; r_skin 1"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
-		"paintbackgroundtype"	"0"
-		"defaultBgColor_Override"	"0 0 0 255"
-		
-		"paintborder"		"0"
-		
-		"image_drawcolor"		"255 255 255 77"
-		"image_armedcolor"		"255 255 255 128"
-		"image_selectedcolor"	"255 255 255 255"
-	
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"			"52"
-			"tall"			"52"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"/store/store_blueteam"
-			"scaleImage"	"1"
-		}				
-	}		
+
 	"TauntHintLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -545,7 +474,7 @@
 		"labelText"		""
 		"xpos"			"c-25"
 		"ypos"			"c90"
-		"zpos"			"12"
+		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -583,7 +512,7 @@
 		"labelText"		""
 		"xpos"			"c2"
 		"ypos"			"c90"
-		"zpos"			"12"
+		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -681,7 +610,7 @@
 			"fieldName"		"CloseButton"
 			"xpos"			"230"
 			"ypos"			"5"
-			"zpos"			"12"
+			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
 			"autoResize"	"0"
@@ -722,5 +651,5 @@
 				"scaleImage"	"1"
 			}				
 		}		
-	}		
+	}
 }

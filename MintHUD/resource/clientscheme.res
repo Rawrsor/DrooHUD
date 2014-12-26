@@ -2871,6 +2871,28 @@ Scheme
 			}
 		}
 		
+		"Alt24"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt12"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		"Alt54"
 		{
 			"1"
