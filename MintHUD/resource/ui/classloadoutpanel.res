@@ -43,8 +43,10 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"	"244 244 244 140"
 			
 			"model_ypos"	"5"
 			"model_tall"	"55"
@@ -54,7 +56,7 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
+				"font"			"Alt24"
 				"visible"		"0"
 			}
 			
@@ -92,25 +94,25 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Alt30"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
+		"xpos"			"c-310"
 		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"40"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "MHUD_Mint"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Alt30"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -122,31 +124,32 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"		"255 255 255 255"
 	}
 
 	"TauntCaratLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TauntCaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Alt30"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-150"
+		"xpos"			"c-160"
 		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"40"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "MHUD_Mint"
 	}
 	"TauntLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Alt30"
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
 		"xpos"			"c-130"
@@ -158,6 +161,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	
 	"TopLine"
@@ -169,8 +173,8 @@
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
@@ -321,6 +325,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground"	"0"
+		"font"			"Alt12"
+		"paintborder"	"0"
 	}
 	
 	"PresetsExplanation"
@@ -452,7 +458,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"Alt12"
 		"xpos"			"c90"
 		"ypos"			"20"
 		"zpos"			"1"	
@@ -488,6 +494,12 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"14 14 14 255"
+		"defaultFgColor_override"	"White"
+		"border_default"		"NoBorder"
+		
 
 		"SubImage"
 		{
@@ -526,6 +538,7 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"		"NoBorder"
 
 		"SubImage"
 		{

@@ -5,8 +5,8 @@
 	{
 	"controlName"		"CExLabel"
 	"fieldName"			"Crosshair"
-	"visible"			"0"
-	"enabled"			"0"
+	"visible"			"1"
+	"enabled"			"1"
 	"visible_minmode"	"1"
 	"enabled_minmode"	"1"
 	"xpos"				"0"			//Play around with x and y until it's centered
@@ -599,19 +599,18 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
+		"xpos"		"c-175"
+		"ypos"		"180"	[$WIN32]
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"font"		"default"
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"0"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
+		"ItemFadeOutTime"	"1.0"
 		"topoffset"		"0"
 	}
 
