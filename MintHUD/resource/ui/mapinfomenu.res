@@ -15,11 +15,25 @@
 		"enabled"		"1"
 	}
 	
+	"MapInfoBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MapInfoBG"
+		"xpos"			"c-175"
+		"ypos"			"80"
+		"zpos"			"-100"
+		"wide"			"400"
+		"tall"			"290"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"14 14 14 140"
+	}
+	
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
-		"xpos"			"c-184"
+		"xpos"			"c-169"
 		"xpos_lodef"			"c-174"	
 		"xpos_hidef"			"c-174"
 		"ypos"			"95"
@@ -41,7 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
-		"xpos"			"c-184"
+		"xpos"			"c-169"
 		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
 		"ypos"			"125"
@@ -55,7 +69,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardText"
+		"font"			"Alt24"
 		"fgcolor"		"Gray"
 	}	
 	
@@ -63,26 +77,19 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"ChalkboardText"
-		"xpos"			"c-184"
-		"xpos_lodef"			"c-174"
-		"xpos_hidef"			"c-174"
+		"font"			"Default"
+		"xpos"			"c-175"
 		"ypos"			"160"
-		"ypos_hidef"			"155"
 		"zpos"			"3"
 		"wide"			"195"
-		"wide_lodef"			"195"
-		"wide_hidef"			"210"
 		"tall"			"200"
-		"tall_hidef"			"200"
-		"tall_lodef"	"200"
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"MapImage"
@@ -112,8 +119,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"r190"
-		"ypos"			"r40"
+		"xpos"			"c105"
+		"ypos"			"c125"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -128,8 +135,11 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"BerlinEmail30"
-		"fgcolor"		"Black"
+		"font"			"Alt24"
+		"defaultBgColor_override"	"0 0 0 0"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedBgColor_override"	"0 0 0 0"
+		"armedFgColor_override" 	"MHUD_Mint"
 	}
 	
 	"MapInfoWatchIntro" [$WIN32]
@@ -161,11 +171,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"40"
-		"xpos_hidef"			"50"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"c-220"
+		"ypos"			"c125"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -178,8 +185,11 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"font"			"Alt24"
+		"defaultBgColor_override"	"0 0 0 0"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedBgColor_override"	"0 0 0 0"
+		"armedFgColor_override" 	"MHUD_Mint"
 	}
 	
 	"MenuBG"

@@ -25,8 +25,8 @@
 		"item_mod_wide"	"40"
 		
 		"item_backpack_offcenter_x"		"-288"
-		"item_backpack_xdelta"			"4"
-		"item_backpack_ydelta"			"3"
+		"item_backpack_xdelta"			"0"
+		"item_backpack_ydelta"			"0"
 
 		"button_xpos_offcenter"	"175"		
 		"button_ypos"	"85"

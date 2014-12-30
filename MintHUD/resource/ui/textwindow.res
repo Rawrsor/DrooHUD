@@ -33,8 +33,29 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"Alt24"
 		"fgcolor"		"White"
+	}
+	
+	"TFMessageTitleBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitleBG"
+		"xpos"			"c-185"
+		"ypos"			"96"
+		"zpos"			"1"
+		"wide"			"420"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_WELCOME"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Alt24"
+		"fgcolor"		"Black"
 	}	
 
 	"TextMessage"
@@ -49,7 +70,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
+		"font"			"Alt24"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"
@@ -61,9 +82,26 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 	}
 
+	"TFTextMessageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFTextMessageBG"
+		"font"			"Alt24"
+		"xpos"			"c-184"
+		"ypos"			"125"
+		"zpos"			"1"
+		"wide"			"420"
+		"tall"			"245"
+		"autoResize"	"3"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"14 14 14 140"
+	}
+	
 	"HTMLMessage"
 	{
 		"ControlName"		"HTML"
@@ -85,8 +123,8 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"r190"
-		"ypos"			"r40"
+		"xpos"			"c-215"
+		"ypos"			"c125"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -95,14 +133,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"&e   Continue"
+		"labelText"		"CONTINUE"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"okay"
-		"default"		"1"
-		"font"			"BerlinEmailAlt30"
+		"font"			"Alt24"
+		"defaultBgColor_override"	"0 0 0 0"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedBgColor_override"	"0 0 0 0"
+		"armedFgColor_override" 	"MHUD_Mint"
+		"border_default"		"NoBorder"
+		"border_armed"		"NoBorder"
 	}
 	
 	"MenuBG"

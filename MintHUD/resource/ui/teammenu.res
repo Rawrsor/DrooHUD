@@ -116,7 +116,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3 BLU"	[$WIN32]
+		"labelText"		"&1 BLU"	[$WIN32]
 		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
