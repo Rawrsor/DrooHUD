@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"14 14 14 255"
 	}
 	"SidePanelBG2"
 	{

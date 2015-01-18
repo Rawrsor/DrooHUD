@@ -22,8 +22,8 @@ Scheme
 //////////MintHUD Colors//////////////////////////////////////////////////////////////////////
 		
 		//Customizable Colors
-		"CrosshairColor"	"255 255 255 255"	//Color of HUD Crosshair
-		"CrosshairHitColor"	"255 69 0 255"		//Customize the color the HUD crosshair makes
+		"CrosshairColor"	"222 255 232 255"	//Color of HUD Crosshair
+		"CrosshairHitColor"	"252 3 136 255"		//Customize the color the HUD crosshair makes
 												//when you hit someone
 		
 		"MHUD_Health"		"222 255 232 255"	//Color of health numbers
@@ -154,7 +154,7 @@ Scheme
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"204 204 250 255"
-		"QualityColorrarity4"					"242 12 162 255"
+		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"89 158 49 255"
 		"QualityColorUnique"					"240 240 240 255"
 		"QualityColorCommunity"					"112 176 74 255"
@@ -162,15 +162,15 @@ Scheme
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
 		"QualityColorStrange"					"245 49 10 255"
-		"QualityColorCompleted"					"234 60 83 255"
+		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"208 178 237 255"
-		"QualityColorCollectors"				"0 191 255 255"
+		"QualityColorCollectors"				"82 255 168 255"
 
 		"QualityColorNormal_GreyedOut"			"50 50 50 255"
 		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
 		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
 		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
-		"QualityColorrarity4_GreyedOut"			"242 12 162 255"
+		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
 		"QualityColorVintage_GreyedOut"			"89 158 49 255"
 		"QualityColorUnique_GreyedOut"			"240 240 240 255"
 		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
@@ -178,9 +178,9 @@ Scheme
 		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
 		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
 		"QualityColorStrange_GreyedOut"			"245 49 10 255"
-		"QualityColorCompleted_GreyedOut"		"234 60 83 255"
+		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
 		"QualityColorHaunted_GreyedOut"			"208 178 237 255"
-		"QualityColorCollectors_GreyedOut"		"0 191 255 255"
+		"QualityColorCollectors_GreyedOut"		"82 255 168 255"
 
 		
 		"SaleGreen"								"76 107 34 255"

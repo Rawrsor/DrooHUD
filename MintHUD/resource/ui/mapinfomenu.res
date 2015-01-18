@@ -119,7 +119,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"c105"
+		"xpos"			"c-210"
 		"ypos"			"c125"
 		"zpos"			"6"
 		"wide"			"150"
@@ -171,7 +171,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"c-220"
+		"xpos"			"c120"
 		"ypos"			"c125"
 		"zpos"			"6"
 		"wide"			"150"

@@ -1,5 +1,9 @@
 "GameMenu" [$WIN32]
 {
+	"MHUDBG"
+	{
+		"OnlyAtMenu" "1"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"#MMenu_ResumeGame"
@@ -9,42 +13,42 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "#MMenu_PlayMultiplayer" 
+		"label" "Quickplay" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "Quickplay" 
 		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "#MMenu_PlayCoop" 
+		"label" "MVM" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_Servers" 
+		"label" "Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "Replays"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
 	}
@@ -63,7 +67,7 @@
 	}
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" "Practice"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
@@ -79,13 +83,13 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Items"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
@@ -94,7 +98,7 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -102,7 +106,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"Mute"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"

@@ -1,0 +1,13 @@
+    "chapters"
+    {
+            1       "bg_01"
+            2       "bg_02"
+            3       "bg_03"
+    }
+    "BackgroundMaps"
+    {
+            1       "bg_01"
+            2       "bg_02"
+            3       "bg_03"
+    }
+
