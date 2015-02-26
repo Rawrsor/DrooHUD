@@ -943,7 +943,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultFgColor_override" "MHUD_TeamRed"
+			"defaultFgColor_override" "MHUD_LightRed"
 			"armedFgColor_override" "MHUD_Mango"
 			"depressedFgColor_override" "MHUD_Mint"
 			
