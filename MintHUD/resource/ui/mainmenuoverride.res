@@ -172,7 +172,7 @@
 		"wide"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"MintHUD"
+		"labelText"		"MintyHUD"
 		"fgcolor"		"MHUD_Mint"
 		"font"			"BerlinEmail54"
 	}
