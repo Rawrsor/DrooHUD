@@ -165,6 +165,23 @@ Scheme
 		"QualityColorCompleted"					"234 60 83 255"
 		"QualityColorHaunted"					"208 178 237 255"
 		"QualityColorCollectors"				"0 191 255 255"
+		"QualityColorPaintkitWeapon"			"250 250 250 255"
+
+		"ItemRarityDefault"						"131 126 119 255"
+		"ItemRarityCommon"						"176 195 217 255"
+		"ItemRarityUncommon"					"94 152 217 255"
+		"ItemRarityRare"						"75 105 255 255"
+		"ItemRarityMythical"					"136 71 255 255"
+		"ItemRarityLegendary"					"211 44 230 255"
+		"ItemRarityAncient"						"235 75 75 255"
+		
+		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
+		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
+		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
+		"ItemRarityRare_GreyedOut"				"25 35 85 255"
+		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
+		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
+		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
 
 		"QualityColorNormal_GreyedOut"			"50 50 50 255"
 		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
@@ -181,6 +198,7 @@ Scheme
 		"QualityColorCompleted_GreyedOut"		"234 60 83 255"
 		"QualityColorHaunted_GreyedOut"			"208 178 237 255"
 		"QualityColorCollectors_GreyedOut"		"0 191 255 255"
+		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 
 		
 		"SaleGreen"								"76 107 34 255"
@@ -2757,6 +2775,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"CrosshairLarge"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 		"CrosshairSmall"
 		{
@@ -4893,32 +4921,33 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"
+		"7" "resource/ocra.ttf"
+		"8"
 		{
 			"font" "resource/fonts/Berlin_Email.ttf"
 			"name" "Berlin Email"
 		}
-		"8"
+		"9"
 		{
 			"font" "resource/fonts/Berlin_Email_2.ttf"
 			"name" "Berlin Email 2"
 		}
-		"9"
+		"10"
 		{
 			"font" "resource/fonts/Berlin_Email_Bold.ttf"
 			"name" "Berlin Email Bold"
 		}
-		"10"
+		"11"
 		{
 			"font" "resource/fonts/Berlin_Email_Heavy.ttf"
 			"name" "Berlin Email Heavy"
 		}
-		"11"
+		"12"
 		{
 			"font" "resource/fonts/Berlin_Email_SemiBold.ttf"
 			"name" "Berlin Email Semibold Bold"
 		}
-		"12"
+		"13"
 		{
 			"font" "resource/fonts/Berlin_Email_Wide_Semibold.ttf"
 			"name" "Berlin Email Wide Semibold"
@@ -4929,16 +4958,11 @@ Scheme
 			"name" "Crosshairs Regular"
 		}
 		"14"
-		{	
-			"font" "resource/fonts/Santiago Sans St.ttf"
-			"name" "Santiago Sans St"
-		}
-		"15"
 		{
 			"font" "resource/fonts/regular.ttf"
 			"name" "Homizio Nova"
 		}
-		"16"
+		"15"
 		{
 			"font" "resource/fonts/Brixton Bold.ttf"
 			"name" "Brixton Bold"

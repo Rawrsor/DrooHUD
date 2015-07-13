@@ -1,0 +1,301 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/clientscheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/clientschemetemp",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/clientscheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/BaseChat.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/charinfoarmorysubpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/charinfoloadoutsubpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/charinfopanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/classloadoutpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/classselection.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/classtipslist.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/controlpointicon.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/disguisestatuspanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/enemycountpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/flagstatus.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/freezepanel_basic.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/freezepanelkillerhealth.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hud_obj_dispenser.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hud_obj_sapper.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hud_obj_sentrygun.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hud_obj_sentrygun_disp.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hud_obj_tele.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hud_obj_tele_entrance.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hud_obj_tele_exit.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudaccountpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudammoweapons.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudbowcharge.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudcurrencyaccount.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huddamageaccount.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huddemomancharge.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huddemomanpipes.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudhealthaccount.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_cleaver.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_demoman.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_engineer.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_heavy.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_killstreak.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_particlecannon.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_pomson.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_raygun.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_sapper.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_scout.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_sniper.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_sniperfocus.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_sodapopper.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_spy.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/huditemeffectmeter_spyknife.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudmannvsmachinestatus.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudmediccharge.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudmenutauntselection.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudobjectiveflagpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudobjectivekothtimepanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudobjectivestatus.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudobjectivetimepanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudplayerclass.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudplayerhealth.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudtournament.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/hudtournamentsetup.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/itemquickswitch.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/mainmenuoverride.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/mapinfomenu.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/mvmcreditspendpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/mvmcreditsubpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/mvminworldcurrency.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/mvmscoreboard.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/scoreboard.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/spectator.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/spectatorguihealth.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/statpanel_base.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/statsummary.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/targetid.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/teammenu.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/textwindow.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/wavestatuspanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/ui/winpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/chatscheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/gamemenu.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/MintHUD/resource/sourcescheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/RawrHUD/-------------------------------.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/RawrHUD/-----------.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/RawrHUD/resource/ui/disguise_menu/pyro_blue.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/RawrHUD/resource/ui/disguise_menu/pyro_red.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/cliphud-master/resource/ui/classselection.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/cliphud-master/resource/ui/classmenu.res",
+		"/C/Users/Drew/Dropbox/School Stuff/English 11/VisualArgumentMacbeth.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/spectatorguihealth.res",
+		"/C/Program Files (x86)/Steam/steamapps/sourcemods/tf2classic/custom/qtchudp/resource/clientscheme.res",
+		"/C/Users/Drew/Documents/Rainmeter/Skins/iFlat/Weather/Weather.ini",
+		"/C/Users/Drew/Documents/Rainmeter/Skins/Chromebook Widget/Chromebook.ini",
+		"/C/Users/Drew/AppData/Local/Temp/Rar$DIa0.571/FILE_DESCRIPTIONS.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/ui/hudammoweapons.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_CarrotHUD-master/resource/ui/hudammoweapons.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/cliphud-master/resource/ui/hudammoweapons.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/RawrHUD/resource/fonts/OFL.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/_CarrotHUD-master/resource/clientscheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/_CarrotHUD-master/fonts/Sources.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"OCRA",
+			"ocra",
+			"//HUD FONTS//",
+			"//HUD FONTS",
+			"//HUD",
+			"econ fonts",
+			"//econ",
+			"//hud",
+			"cancel",
+			"Random",
+			"model",
+			"character",
+			"classmenu",
+			"model",
+			"loadout",
+			"random",
+			"cancel",
+			"suppo",
+			"defense",
+			"offense",
+			"local",
+			"200",
+			"classtips",
+			"account",
+			"caccount",
+			"medic",
+			"25",
+			"target",
+			"//hud",
+			"target",
+			"death",
+			"dea",
+			"32",
+			"//hud",
+			"//huds",
+			"//hud fon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MintHUDSublime.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

@@ -17,6 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
 		"name_width"		"114"	[$WIN32]
@@ -902,18 +903,36 @@
 			"tall"			"100"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"MHUD_Mint"
+		}	
+		"Kills2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Kills2"
+			"font"			"BerlinEmail48"
+			"labelText"		"%kills%"
+			"textAlignment"	"west"
+			"xpos"			"40"
+			"ypos"			"-25"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"100"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MHUD_Mint"
-		}						
+		}											
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"Deaths2"
 			"font"			"BerlinEmail48"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
-			"xpos"			"70"
+			"xpos"			"80"
 			"ypos"			"-25"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -960,10 +979,10 @@
 			"enabled"		"0"
 			"fgcolor"		"185 177 153 255"
 		}							
-		"Assists"
+		"Assist"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assists1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
@@ -981,7 +1000,7 @@
 		"Destruction"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"Destruction1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
@@ -1066,7 +1085,7 @@
 		"Captures"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"Captures1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
@@ -1083,7 +1102,7 @@
 		"Defenses"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"Defenses1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
@@ -1100,7 +1119,7 @@
 		"Domination"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Domination1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
@@ -1118,7 +1137,7 @@
 		"Revenge"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"Revenge1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
@@ -1204,7 +1223,7 @@
 		"Healing"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"Healing1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%healing%"
 			"textAlignment"	"west"
@@ -1222,7 +1241,7 @@
 		"Invuln"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"Invuln1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
@@ -1239,7 +1258,7 @@
 		"Teleports"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"Teleports1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
@@ -1256,7 +1275,7 @@
 		"Headshots"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"Headshots1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
@@ -1291,7 +1310,7 @@
 		"Backstabs"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"Backstabs1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"		[$WIN32]
@@ -1327,7 +1346,7 @@
 		"Bonus"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"Bonus1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
@@ -1361,7 +1380,7 @@
 		"Support"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
+			"fieldName"		"Support1"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		[$WIN32]
@@ -1392,7 +1411,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Damage"
+		"Damage1"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"

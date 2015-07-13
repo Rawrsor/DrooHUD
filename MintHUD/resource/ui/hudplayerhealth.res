@@ -91,7 +91,20 @@
 		"font"			"BerlinEmail54"		//Remove the // to choose what font you want
 		//"font"		"Alt54"
 		"fgcolor"		"MHUD_Black"
-	}									
+	}
+
+	"StatusFix"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"StatusFix"
+		"xpos"	"73"
+		"ypos"	"58"
+		"wide"	"20"
+		"tall"	"20"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -107,6 +120,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}		
 	"PlayerStatusMilkImage"
 	{
@@ -123,6 +139,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -139,6 +158,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -155,6 +177,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -171,6 +196,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -187,6 +215,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
@@ -203,6 +234,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -220,6 +254,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -236,6 +273,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -252,6 +292,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	
 
@@ -288,6 +331,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
@@ -305,6 +351,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
@@ -322,6 +371,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -338,5 +390,8 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
+		"pin_to_sibling" "StatusFix"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 }

@@ -1,0 +1,606 @@
+//Customizable Colors
+		"CrosshairColor"	"255 255 255 255"	//Color of HUD Crosshair
+		"CrosshairHitColor"	"255 69 0 255"		//Customize the color the HUD crosshair makes
+												//when you hit someone
+		
+		"MHUD_Health"		"222 255 232 255"	//Color of health numbers
+		"MHUD_HealthBuffed"	"54 255 124 255"	//Color of overheal health numbers
+		"MHUD_HealthLow1"	"232 79 79 255"		//1st color of the low health animation
+		"MHUD_HealthLow2"	"245 30 30 255"		//2nd color of the low health animation
+		"MHUD_Ammo"			"222 255 232 255"	//Color of ammo numbers
+		"MHUD_AmmoReserve"	"250 191 90 255"	//Color of ammo in reserve numbers
+		"MHUD_AmmoLow"		"245 30 30 255"		//Color that flashes during the low ammo animation
+		
+		//MintHUD Base Colors
+		"MHUD_White"		"222 255 232 255"
+		"MHUD_White_T"		"222 255 232 150"
+		"MHUD_Black"		"13 13 13 255"
+		"MHUD_Mint"			"54 255 124 255"
+		"MHUD_Red"			"232 79 79 255"
+		"MHUD_LightRed"		"245 30 30 255"
+		"MHUD_DarkBlu"		"54 120 186 255"
+		"MHUD_Mango"		"250 191 90 255"
+		"MHUD_TeamRed"		"212 85 68 255"
+		"MHUD_TeamBlu"		"68 176 212 255"
+		"MHUD_Melon"		"222 82 180 255"
+
+//Berlin Email
+		"BerlinEmail12"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmail18"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmail24"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmail30"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmail36"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmail42"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmail48"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmail54"
+		{
+			"1"
+			{
+				"name"		"Berlin Email"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		//Berlin Email Bold		
+
+		"BerlinEmailBold12"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailBold18"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailBold24"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailBold30"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailBold36"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailBold42"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailBold48"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailBold54"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Bold"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		//Berlin Email Heavy
+
+		"BerlinEmailHeavy12"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailHeavy18"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailHeavy24"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailHeavy30"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailHeavy36"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailHeavy42"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailHeavy48"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailHeavy54"
+		{
+			"1"
+			{
+				"name"		"Berlin Email Heavy"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		
+		//Berlin Email 2
+		"BerlinEmailAlt12"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt18"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt24"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt30"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt36"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt42"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt48"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BerlinEmailAlt54"
+		{
+			"1"
+			{
+				"name"		"Berlin Email 2"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		//Crosshairs Font
+		
+		"Crosshair"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CrosshairLarge"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"CrosshairSmall"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"Opificio12"
+		{
+			"1"
+			{
+				"name"		"Opificio"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Facile12"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		"Facile24"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		"Facile36"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		"Facile54"
+		{
+			"1"
+			{
+				"name"		"Facile Sans"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Baron54"
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Baron36"
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt36"
+		{
+			"1"
+			{
+				"name"		"Thohir Ke Badreah"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt30"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt24"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt12"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Alt54"
+		{
+			"1"
+			{
+				"name"		"Brixton Bold"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+
+
+
+		"7"
+		{
+			"font" "resource/fonts/Berlin_Email.ttf"
+			"name" "Berlin Email"
+		}
+		"8"
+		{
+			"font" "resource/fonts/Berlin_Email_2.ttf"
+			"name" "Berlin Email 2"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Berlin_Email_Bold.ttf"
+			"name" "Berlin Email Bold"
+		}
+		"10"
+		{
+			"font" "resource/fonts/Berlin_Email_Heavy.ttf"
+			"name" "Berlin Email Heavy"
+		}
+		"11"
+		{
+			"font" "resource/fonts/Berlin_Email_SemiBold.ttf"
+			"name" "Berlin Email Semibold Bold"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Berlin_Email_Wide_Semibold.ttf"
+			"name" "Berlin Email Wide Semibold"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Crosshairs.ttf"
+			"name" "Crosshairs Regular"
+		}
+		"14"
+		{	
+			"font" "resource/fonts/Santiago Sans St.ttf"
+			"name" "Santiago Sans St"
+		}
+		"15"
+		{
+			"font" "resource/fonts/regular.ttf"
+			"name" "Homizio Nova"
+		}
+		"16"
+		{
+			"font" "resource/fonts/Brixton Bold.ttf"
+			"name" "Brixton Bold"
+		}
